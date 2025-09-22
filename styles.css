@@ -1,0 +1,100 @@
+
+/* * {
+	border: 1px dashed red;
+	min-height: 10px;
+}*/
+
+
+body {
+    background-color: gainsboro;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+
+}
+
+div.big-container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+   
+}
+
+
+.main-title { height: 100px;
+                background-color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              }
+
+ 
+div.p1-top, div.p2-top, div.p3-top, div.p4-top  {
+                display: flex;
+                position: relative;
+                align-items: center;
+              
+}
+
+div.p1-top, div.p1-bottom, div.p2-top, div.p2-bottom, div.p3-top, div.p3-bottom, div.p4-top, div.p4-bottom  
+        {    height: 60px;
+                width: 600px;
+                background-color: white;
+                border-style: solid 2px;
+                border-color: gray;
+
+}
+
+div.p1-foto, div.p2-foto, div.p3-foto, div.p4-foto  
+            {   display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 300px;
+                width: 600px;
+                border-style: solid 2px;
+                border-color: gray;
+                
+        
+}
+
+.p1-foto img, .p2-foto img, .p3-foto img, .p4-foto img  
+            {   width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+div.p1-top-L, div.p2-top-L, div.p3-top-L, div.p4-top-L  
+            { 
+               font-weight: bold; 
+               font-size: 20px;
+               position: absolute;
+                left: 0;
+                padding: 10px;
+            
+            }
+
+div.p1-top-R, div.p2-top-R, div.p3-top-R, div.p4-top-R 
+            {
+               
+               position: absolute;
+               right: 0;
+               padding: 10px;
+               color: gray
+                
+            }
+
+.p1-bottom-text, .p2-bottom-text, .p3-bottom-text, .p4-bottom-text {
+                height: 40px;
+                width: 580px;
+                padding: 10px;
+                font-size: 13px; 
+}
+
+.main-title h1 {
+                font-size: 48px;
+}
+
+.post {
+                margin-bottom: 20px;
+}
